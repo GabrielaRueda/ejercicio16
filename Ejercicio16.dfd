@@ -1,0 +1,128 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+6
+Cost_A
+4
+1800
+6
+Cost_N
+4
+1200
+4
+1
+54
+'Bienveido a Nadando con delfines de Six Flags México'
+4
+1
+47
+'¿Desea comprar una entrada para la atraccion?'
+5
+1
+6
+entrar
+7
+0
+1
+22
+entrar = 'si' or 'yes'
+4
+1
+27
+'Que tenga un buen dia :))'
+13
+4
+1
+19
+'¿Cual es tu edad?'
+5
+1
+4
+edad
+7
+0
+1
+23
+edad >= 0 and edad < 18
+7
+0
+1
+24
+edad >= 18 and edad < 65
+7
+0
+1
+26
+edad >= 65 and edad <= 120
+4
+1
+41
+'Sospechoso, no mienta, intente de nuevo'
+13
+6
+2
+10
+DescuentoM
+19
+(Cost_A / 100) * 40
+7
+Cost_FA
+19
+Cost_A - DescuentoM
+4
+1
+89
+'Buenas tardes señor dinosaurio por su edad se le cobrara solamente: ', Cost_FA, ' money'
+13
+13
+4
+1
+78
+'Orale papi chulo caigale con la feria, su total es de ', Cost_A, ' Doloramas'
+13
+13
+4
+1
+74
+'Buenas mocoso malcriado, ¿Cual fue tu promedio de último ciclo escolar ?'
+5
+1
+12
+Calificacion
+7
+0
+1
+44
+Calificacion >= 9.0 and Calificacion <= 10.0
+4
+1
+41
+'nimodo mocoso pagas ', Cost_N,  ' bolas'
+13
+6
+2
+9
+Descuento
+19
+(Cost_N / 100) * 50
+7
+Cost_FN
+18
+Cost_N - Descuento
+4
+1
+99
+'Bien hecho huerco tus esfuerzos han dado su fruto, por ello solo pagaras:  ', Cost_FN, ' Billuyos'
+4
+1
+63
+'Por ser un buen estudiante te regalamos una foto con la focas'
+13
+13
+13
+1
